@@ -1,0 +1,10 @@
+.welcome-text h2, #count-down-wrapper ul li h2:before, .subscribe-filed  #subscribe-btn, .section-title h2, .about-media-box, .about-text h3:before, .contact-info span.icon, .form-main  .button-submit #submit, ul.social-icon li a:before, .single-fetured.active .fetured-box{background:#F3CC29}
+.scroll-btn > a i, .angle-links a.active i, ul.social-icon li a, .footer-text h2, .footer-text p a{color:#F3CC29}
+.welcome-wrapper, .form-main  .form-control:focus, .form-main  .button-submit #submit, .footer-content-wrapper{border-color:#F3CC29 !important}
+.angle-links a.angle-link-top{border-top-color:#debc29 !important;}
+.angle-links a.angle-link-left{border-left-color:#debc29  !important;}
+.angle-links a.angle-link-right{border-right-color:#debc29  !important;}
+.form-main  .button-submit #submit:hover{background:#fcdd61;}
+.contact-info span.icon, .single-fetured.active .fetured-box{
+border-color: #fcdd61 !important;}
+ul.social-icon li a{border: 2px solid #c6a728;}

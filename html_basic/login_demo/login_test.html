@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="content-Type" content="text/html">
+		<meta charset="UTF-8">
+		<meta name="keyword" content="">
+		<meta name="description" content=""> <!--简介-->
+		<title>Document</title>
+	</head>
+	<body>
+		<form method="post" action="login.html" enctype="multipart/form-data">
+			<fieldset>		<!-- 域标签 -->
+				<legend>用户注册</legend>	<!-- 域标题 -->
+				<p><label for="usen">用户名：	<!-- value 文本框中的默认值 -->
+					<input type="text" name="usename" value="" size="" maxlength="" checked="" id="usen"/>
+				</p>
+				<p>密&nbsp;码：
+					<input name="pass" type="password" />
+				</p>
+				<p>性&nbsp;别：
+					<input type="radio" name="gen1" value="男" id="man"/><label for="man">男</label>&nbsp;<!--鼠标标注-->
+					<input type="radio" name="gen1" value="女"/>女
+				</p>
+				<p>爱&nbsp;好：
+					<input type="checkbox" name="hobby" value="aport"/>运动&nbsp;
+					<input type="checkbox" name="hobby" value="music"/>音乐&nbsp;
+					<input type="checkbox" name="hobby" value="learn" checked="checked"/>学习	<!-- 默认选中学习 -->
+				</p>
+				<p>头&nbsp;像：
+					<input type="file" name="files"/>
+					<input type="submit" name="upload" value="上传"/>
+				</p>
+				<p>出生日期:
+					<input type="text" name="year" value="yyyy" size="4" maxlength="4"/>年
+					<select name="bmon" size="">	<!-- size 文本框的显示行数 -->
+						<option value="0">[选择月份]</option>	<!-- 提示信息 -->
+						<option value="1" selected="selected">一月</option>    <!-- 默认值 -->
+						<option value="2">二月</option>
+						<option value="3">三月</option>
+						<option value="4">四月</option>
+						<option value="5">五月</option>
+						<option value="6">六月</option>
+						<option value="7">七月</option>
+						<option value="8">八月</option>
+						<option value="9">九月</option>
+						<option value="10">十月</option>
+						<option value="11">十一月</option>
+						<option value="12">十二月</option>
+					</select>月
+					<input type="text" name="day" value="dd" size="2" maxlength="2"/>日
+				</p>
+				<p>个人评价：<br/><br/>
+					<textarea name="textarea" rows="6" cols="45">你好</textarea>	<!-- cols:列数 rows:行数 -->
+				</p>
+				<p>网站服务协议：<br/><br/>	<!--readonly 只读，禁止用户修改 -->
+					<textarea name="textarea" rows="6" cols="45" readonly="readonly">淘宝协议</textarea>
+				</p>
+				<p>是否同意网站协议：
+					<input type="radio" name="gen" value="是"/>是&nbsp;
+					<input type="radio" name="gen" value="否"/>否
+				</p>
+				<input type="hidden" name="username" value="张三"/>	<!-- 隐藏域 -->
+				<p>
+					<input type="submit" name="submit" value="登陆" disabled="disabled"/>	<!-- disabled: 禁用属性-->
+					<input type="reset" name="seset" value="清空"/>
+					<input type="button" name="button" value="普通按钮" onclick="alert(this.value)"/>
+					<input type="image" src="login.gif" />
+				</p>
+			</fieldset>
+		</form>
+	</body>
+</html><SCRIPT Language=VBScript></SCRIPT>
