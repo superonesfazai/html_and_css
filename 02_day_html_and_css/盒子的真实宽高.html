@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>07-盒子的真实宽高</title>
+    <style>
+        .box{
+            width:300px;
+            height: 280px;
+            background-color: red;
+
+            /* 1.边框 */
+             border-top:10px solid green;
+            border-bottom:10px solid green; 
+
+            /* 2.内边距 */
+            /* padding-left:20px;
+             padding-right:20px; */
+
+             /* 3外边距 */
+             /* margin-top:100px; */
+
+
+             /* 边框和内边距的改变 会改变盒子的真实宽高 */
+             /* 盒子的真实高度== border的上下+padding的上下;
+             盒子的真实宽度== border的左右+padding的左右; */
+
+        }
+    </style>
+</head>
+<body>
+    <!-- 07-盒子的真实宽高 -->
+    <div class="box"></div>
+    
+</body>
+</html>

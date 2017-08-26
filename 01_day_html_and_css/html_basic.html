@@ -58,6 +58,31 @@
             br {
                 width: 2px;
             }
+
+            .box{
+                width: 300px;
+                height:  40px;
+                border: 1px solid red;
+
+                text-align: center; /* 文字居中  默认left*/
+
+                /*font-size: 5px;*/
+                text-indent: 4em;   /* 首行缩进  px  em */
+                font-style: italic; /* 是否斜体 */
+                font-weight: bold;  /* 是否加粗 normal*/
+
+                /* font的属性连写:按照顺序写 */
+                    /* 斜体  粗体  字体大小  行高  字体 */
+                /* font: italic bold 20px/50px "Microsoft Yahei"; */
+                font: 5px/12px "Microsoft Yahei";
+
+                /* 处理元素溢出 */
+                /*overflow: visible; !* //默认 *!*/
+                /*overflow: hidden; !* 隐藏超出的内容 没有了 *!*/
+                /*overflow: scroll; !* 滚动查看溢出的内容 *!*/
+                overflow:auto;
+            }
+
         </style>
         <!--css书写外链式-->
         <!--<link rel="stylesheet" href="css/">-->
@@ -68,6 +93,7 @@
         <!--css书写行内式-->
 		<img style="width: 20px;height: 20px" src="./images/RMB.jpg" alt="RMB"/>
         <a href="http://www.baidu.com" target="_parent" name="百度">百度</a><br>
+        <a href="http://www.google.com" target="_blank">google</a>
         <div>
             <p>&nbsp;&nbsp;<span style="color: red;">x</span>xx</p>
         </div>
@@ -99,6 +125,9 @@
                 <img style="width: 30px;height: 30px;" src="./images/RMB.jpg" alt="An awesome picture">
                 <figcaption>Fig1. MDN Logo</figcaption>
             </figure>
+        </div>
+        <div class="box">
+            搜狐娱乐讯 7年后，搜狐娱乐讯 7年后，老友大银幕上再合作，他们之间的角色关系是？杨幂和霍建华，对《逆时营救》里两人的关系给出了对立又逗趣的答案霍建华：相爱相杀。杨幂：没有相爱，只有相杀。
         </div>
 	</body>
 </html>

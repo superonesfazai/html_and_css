@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>09-margin负值案例</title>
+    <style>
+        /* 2.设置样式 */
+        .box{
+
+            width: 200px;
+            height: 154px;
+            border: 1px solid green;
+        }
+
+        /* 2.1小盒子的样式 */
+        .box div{
+
+            width: 200px;
+            height: 30px;
+            background-color: gold;
+
+            border-top:1px solid green;
+        }
+
+        .first{
+
+            margin-top: -1px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1.界面搭建 -->
+    <div class="box">
+        <!-- div*5 -->
+        <div class="first"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </div>
+    
+</body>
+</html>

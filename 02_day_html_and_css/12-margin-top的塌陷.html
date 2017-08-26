@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>12-margin-top的塌陷</title>
+    <style>
+        .box{
+
+            width: 500px;
+            height: 500px;
+            background-color: green;
+
+            /* 解决塌陷问题
+            1.设置父元素的border
+            2.设置父元素的overflow:hidden;
+            3.使用伪类:一般都使用第三种
+            
+             */
+
+              /* border: 1px solid peru;  */
+             /* overflow:hidden;  */
+
+        }
+
+        .clearfix:before{
+            content:"";
+            display: table;
+        }
+        .smallbox{
+
+            width: 200px;
+            height: 200px;
+            background-color:rgb(120, 110, 119);
+
+            /* 盒子嵌套的时候, 设置内部盒子的margin-top 有塌陷的现象 */
+            margin-top:100px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- div.box>div.smallbox -->
+    <div class="box clearfix">
+        <div class="smallbox"></div>
+    </div>
+</body>
+</html>

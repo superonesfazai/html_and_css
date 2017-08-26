@@ -1,0 +1,14 @@
+#### 出现情况
+```html
+* 子元素设置margin-top,子元素不起作用,父元素下沉
+```
+#### 解决塌陷的三种方法
+```html
+1. 在外部盒子设置边框
+2. overflow:hidden
+3. 使用伪类元素:(强烈建议使用:这种方法)
+    .clearfix:before{
+    content:"";
+    display:table;
+    }
+```

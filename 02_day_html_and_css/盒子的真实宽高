@@ -1,0 +1,4 @@
+```html
+盒子的宽 == 两边border + 两边的padding
+盒子的高度 == 上下border + 上下padding
+```

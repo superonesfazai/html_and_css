@@ -1,0 +1,98 @@
+## 常用选择器
+什么是选择器?
+```html
+选择器是指通过一定的语法规则选取到对应的HTML标记，
+然后给这个对应的HTML标记设置样式
+```
+#### 1.标签选择器
+```html
+* 写法: 标签名 {属性:值;属性:值}
+* 标签选择器影响范围大，一般用来做一些通用设置，或用在层级选择器中。
+* 举例：
+    div{color:red} 
+    ......
+    <div>这是第一个div</div>   <!-- 对应以上样式 -->
+    <div>这是第二个div</div>   <!-- 对应以上样式 -->
+```
+#### 2.类选择器
+```html
+* 写法: 类名 {属性:值;属性:值}
+* 通过类名来选择元素，一个类可应用于多个元素，一个元素上也可以使用多个类，应用灵活，可复用，是css中应用最多的一种选择器。
+* 举例:
+    .blue{color:blue}
+    .big{font-size:20px}
+    .box{width:100px;height:100px;background:gold} 
+    ......
+    <div class="blue">....</div>
+    <h3 class="blue big box">....</h3>
+    <p class="blue box">....</p>
+```
+#### 3.层级选择器(后代选择器)
+```html
+* 主要应用在标签嵌套的结构中，层级选择器，
+  是结合上面的两种选择器来写的选择器,它可与标签选择器结合使用，
+  减少命名，同时也可以通过层级，限制样式的作用范围。
+* 举例:
+    .con{width:300px;height:80px;background:green}
+    .con span{color:red}
+    .con .pink{color:pink}
+    .con .gold{color:gold}
+    ......
+    <div class="con">
+        <span>....</span>
+        <a href="#" class="pink">....</a>
+        <a href="#" class="gold">...</a>
+    </div>
+    <span>....</span>
+    <a href="#" class="pink">....</a>
+```
+![](../images/Snip20170719_65.png)
+
+#### ID选择器(使用不多,配合JS使用)
+```html
+* ID选择器的定义: #自定义ID名称 {属性: 值;}
+* ID样式的调用:标签通过id属性调用定义好的样式
+  文字
+*   #box{color:red} 
+    ......
+    <p id="box">这是一个段落标签</p>   <!-- 对应以上一条样式，其它元素不允许应用此样式 -->
+    <p>这是第二个段落标签</p> <!-- 无法应用以上样式，每个标签只能有唯一的id名 -->
+    <p>这是第三个段落标签</p> <!-- 无法应用以上样式，每个标签只能有唯一的id名  -->
+```
+#### ID选择器与类选择器的区别
+```html
+* 标签 中的id值唯一 (CSS可以但是不符合JS语法)
+* 一个标签只能调用一个id样式
+```
+#### 组选择器--并集选择器
+```html
+* 多个选择器有同样的设置
+* 格式:选择器,选择器,选择器 {属性: 值;}
+* 注意:
+    1. 标签之间可以是并列关系也可以是嵌套关系
+    2. 选择器与选择器之间用逗号隔开
+    3. 可以选中所有满足条件的标签
+    
+.box1,.box2,.box3{width:100px;height:100px}
+.box1{background:red}
+.box2{background:pink}
+.box2{background:gold}
+
+<div class="box1">....</div>
+<div class="box2">....</div>
+<div class="box3">....</div>
+```
+#### 伪类和伪元素选择器(hover,before,after)
+```html
+* 常用的伪类选择器有hover，表示鼠标悬浮在元素上时的状态，
+  伪元素选择器有before和after,它们可以通过样式在元素中插入内容。
+
+.box1:hover{color:red}
+.box2:before{content:'行首文字';}
+.box3:after{content:'行尾文字';}
+
+
+<div class="box1">....</div>
+<div class="box2">....</div>
+<div class="box3">....</div>
+```

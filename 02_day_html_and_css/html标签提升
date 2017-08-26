@@ -1,0 +1,69 @@
+## html标签提高
+
+#### 有序标签orderlist
+```html
+基本用法:
+<ol>
+    <li>列表内容</li>
+    <li>列表内容</li>
+    .....
+</ol>
+```
+#### 无序标签 unorderlist -->经常使用
+```html
+*
+   - <ul>
+      -   <li>列表内容</li>
+      -   <li>列表内容</li>
+  - </ul>
+* 系统自带的左边的小图标,浏览器版本不一样显示也不一样;
+  故一般都是取消系统样式(CSS),自定义左边的小图标
+    * type 属性 type = 默认disc 小圆点 circle 小圆圈 square 方形
+```
+#### 定义列表 dl defination list
+```
+<!-- 定义列表: define list
+
+    dd  defination  description 内容
+    dt  defination   title  标题
+-->
+<dl>
+    <dt>高级会员</dt>
+    <dd>美文无限看</dd>
+    <dd>免费大片无限看</dd>
+    <dd>滨崎步的签名照</dd>
+</dl>
+```
+
+#### 表单
+```
+-   表单用来收集不同的用户输入,表单由不同的标签组成;
+-   一个完整的表单由 "from"标签 和 "表单控件标签"组成  
+-   form标签属性
+    -  action 用来提交表单中用户输入的数据
+    -  method  分为  get | post; 默认就是get
+        -   以get 提交数据, 用户输入的数据会提交到网址后面拼接起来 name属性值=输入值&pwd属性值=123   
+        -    get 一目了然 少量数据
+        -   以post提交数据,浏览器看不见提交的内容 比较安全 一般是大量数据
+-   <label></label> label标签用来 定义文字标注
+-   <input type = "" name = "" value = ""> 标签用来文本输入的
+    - input标签属性
+    -  type = "username" 用户名
+    -  type = "password" 密码
+    -  type = "radio" 单选
+    -  type = "checkbox" 多选
+    -  type = "file"    上传文件
+    -  type = "hidden" 隐藏域
+    -  type = "submit" 提交
+    -  type = "reset" 重置
+    -  type = "image" 图片按钮 ,可以获取点击的坐标, 一般不建议使用
+-   下拉列表
+    -   "<select>"
+        -   "<optional></optional>"
+        -   "<optional></optional>"
+        -   "<optional></optional>"
+    -   "</select>"
+-   文本域
+    - "<textarea clos = 列数  rows = "行数">"
+    - "<textarea/>"
+```
