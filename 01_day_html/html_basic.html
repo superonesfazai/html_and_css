@@ -1,0 +1,104 @@
+<!--
+	作者：superonesfazai@gmail.com
+	时间：2017-08-26
+	描述：html_basic
+-->
+<!DOCTYPE html>
+<!--注释快捷键-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>html_basic</title>
+        <!--css书写嵌入式-->
+        <style>
+            /* 类选择器 */
+            .dl_test{
+                width: 100px;    /*css宽高*/
+                height: 60px;
+                background-color: lightgreen;
+                color: black;   /*px: 像素*/
+                font-size: 5px; /*值可为:small*/
+                font-family: "American Typewriter";
+                line-height: 10px;  /*行高*/
+
+                /* 边框 board */
+                border-top: 2px solid green;    /*对应属性: 边框粗细 实线 颜色*/
+                border-bottom: 2px dashed gold; /*虚线*/
+                border-left: 2px dotted blue;   /*点线*/
+                /* 连写 */
+                /*border: 2px solid green;*/
+
+                /* 外边距 */
+                margin: 2px 3px 2px 2px;    /*顺时针 上右下左*/
+                /*margin-bottom: 20px;
+                margin-left: 30px;
+                margin-right: 100px;
+                margin-top: 100px;*/
+                /*margin: 2px;          !*四边*!*/
+                /*margin: 2px 3px;      !*上下 左右*!*/
+                /*margin: 2px 3px 2px;    !*上 左右 下*!*/
+
+                /* 内边距 */
+                padding: 2px 3px 2px 2px;
+                /* padding-top: 20px;
+                padding-left:30px;
+                padding-right: 50px;
+                padding-bottom: 100px; */
+                /* padding: 10px; */
+                /* 赋值4个属性的时候 参考margin 顺时针 */
+            }
+            /* 标签选择器 */
+            a {
+                text-decoration: none;  /*a标签去掉下划线*/
+            }
+            /* 层级选择器(后代选择器) 只要是后代都会生效 */
+            .figure_test figure {
+                color: red;
+            }
+            br {
+                width: 2px;
+            }
+        </style>
+        <!--css书写外链式-->
+        <!--<link rel="stylesheet" href="css/">-->
+	</head>
+	<body>
+
+        <!--alt图片加载失败时加载的文字,搜索引擎会使⽤这个⽂字收录图⽚,盲⼈读屏软件会读取这个⽂字 让盲⼈识别图⽚,所以此属性⾮常重要-->
+        <!--css书写行内式-->
+		<img style="width: 20px;height: 20px" src="./images/RMB.jpg" alt="RMB"/>
+        <a href="http://www.baidu.com" target="_parent" name="百度">百度</a><br>
+        <div>
+            <p>&nbsp;&nbsp;<span style="color: red;">x</span>xx</p>
+        </div>
+        <hr>    <!--水平分割线-->
+        <div class="dl_test">
+            <dl>
+                <dt>Firefox</dt>
+                    <dd>A&nbsp;free你好</dd>
+                <dt>Chrome</dt>
+                    <dd>A&nbsp;money</dd>
+            </dl>
+        </div>
+        <div>
+            <ol type="I">
+                <li value="3">third&nbsp;item</li>
+                <li>fourth&nbsp;item</li>
+                <li>fifth&nbsp;item</li>
+            </ol>
+        </div>
+        <div>
+            <ul>
+                <li>first&nbsp;item</li>
+                <li>second&nbsp;item</li>
+                <li>third&nbsp;item</li>
+            </ul>
+        </div>
+        <div class="figure_test">
+            <figure>
+                <img style="width: 30px;height: 30px;" src="./images/RMB.jpg" alt="An awesome picture">
+                <figcaption>Fig1. MDN Logo</figcaption>
+            </figure>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+## CSS样式 属性提高
+```html
+* text-align 设置文字水平对齐方式，如text-align:center 设置文字水平居中
+* text-indent 设置文字首行缩进，如：text-indent:24px; 设置文字首行缩进24px
+* font-style 设置字体是否倾斜，如：font-style:'normal'; 设置不倾斜，font-style:'italic';设置文字倾斜
+* font 同时设置文字的几个属性，写的顺序有兼容问题，建议按照如下顺序写： font：是否加粗 字号/行高 字体；如： font:normal 12px/36px '微软雅黑';
+* 文本属性的连写
+* 格式: font:font-weight font-style font-size/line-height font-family
+* 注意点:
+    font属性连写中,必须设置 font-size 和 font-family 两个属性
+    font属性连写中,font-size 必须放在 font-family前面
+```
+#### 其他常用样式属性
+```html
+list-style 设置无序列表中的小圆点，一般把它设为"无"，如：list-style:none
+```
+#### CSS元素溢出
+```html
+当子元素的尺寸超过父元素的尺寸时，
+需要设置父元素显示溢出的子元素的方式，
+设置的方法是通过overflow属性来设置。
+```
+#### overflow的设置项:
+```html
+1、visible 默认值。内容不会被修剪，会呈现在元素框之外。
+2、hidden 内容会被修剪，并且其余内容是不可见的，此属性还有清除浮动、清除margin-top塌陷的功能。
+3、scroll 内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。
+4、auto 如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容
+```

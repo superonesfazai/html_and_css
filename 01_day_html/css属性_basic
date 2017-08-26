@@ -1,0 +1,68 @@
+```html
+* width 设置元素(标签)的宽度，如：width:100px;
+```
+```html
+* height 设置元素(标签)的高度，如：height:200px;
+```
+```html
+* background 设置元素背景色或者背景图片，如：background:gold; 设置元素背景色为金色
+```
+```html
+* 画图演示 边框 内边距,外边距
+```
+![](./images/Snip20170719_63.png)
+```html
+border 设置元素四周的边框，如：border:1px solid 
+black; 设置元素四周边框是1像素宽的黑色实线
+    边框属性可以分四个方向
+    border-top:1px solid red 实线
+    border-left:1px dash green 虚线
+    border-right:1px point yellow 圆点
+    border-bottom:1px double blue 双边框
+```
+![](./images/Snip20170719_62.png)
+```html
+* padding:内边距-设置元素包含的内容和元素边框的距离
+    padding-top
+    padding-right
+    padding-left
+    padding-bottom
+    连写: padding: 上 右 下 左 按照顺时针的方向
+    padding:10px 四周都是10px
+    padding:10px 20px 上下是10px,左右是20px
+    padding:10px 20px 30px 上10px 左右20px 下30px
+* margin:外边距,设置元素与外界的距离
+    属性: margin - top
+    属性联写:margin:top right ;与padding属性联写设置方向一样
+* float:设置元素浮动, 浮动可以让块元素排列在一行，浮动分为左浮动：float:left; 右浮动：float:right;
+```
+#### 文本常用样式属性:
+```html
+* color 设置文字的颜色，如： color:red;
+
+* font-size 设置文字的大小，如：font-size:12px;
+
+* font-family 设置文字的字体，如：font-family:'微软雅黑';为了避免中文字不兼容，一般写成：font-family:'Microsoft Yahei';
+
+* font-weight 设置文字是否加粗，如：font-weight:bold; 设置加粗 font-weight:normal 设置不加粗
+
+* line-height 设置文字的行高，如：line-height:24px; 表示文字高度加上文字上下的间距是24px，也就是每一行占有的高度是24px
+
+* text-decoration 设置文字的下划线，如：text-decoration:none; 将文字下划线去掉
+
+* font-family:字体 1.汉字:黑体 宋体 2.英文:SimHei SimSun 3.Unicode编码
+```
+#### 字体对照表:
+![](./images/Snip20170719_60.png)
+#### 样式中的注释
+```html
+快捷键: command+/
+```
+```html
+/* 设置头部的样式 */
+.header{
+width:960px;
+height:80px;
+background:gold;
+}
+```
