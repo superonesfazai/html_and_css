@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>12-清除浮动</title>
+    <style>
+        /* 2.1设置外面的盒子 */
+        .box{
+            width: 210px;
+            border: 1px solid black;
+
+
+            /* 清除浮动
+                产生的原因:父元素没有设置高度, 子元素浮动
+
+                1.设置overflow:hidden;\
+                2.新增一个空的div标签,设置clear:both;
+                3.使用伪类, 一般都使用这种
+             */
+
+             /* 如果元素浮动了, 垂直外边不会合并 */
+
+             /* overflow: hidden; */
+        }
+
+        .clearfix:before,.clearfix:after{
+            content: "";
+            display: table;
+        }
+        .clearfix:after{
+            clear: both;
+        }
+        .clearfix{
+            /* 适配低版本的IE浏览器 */
+            zoom: 1;
+        }
+
+        .last{
+             /* clear: both;  */
+        }
+
+        /* 2.2设置里面的小盒子 */
+        .smallbox{
+            width: 50px;
+            height: 50px;
+            background-color: gold;
+            margin:10px;
+
+            /* 浮动 */
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.搭建界面 -->
+    <!-- div.box>(div.smallbox{盒子$}*8) -->
+    <div class="box clearfix">
+        
+        <div class="smallbox">盒子1</div>
+        <div class="smallbox">盒子2</div>
+        <div class="smallbox">盒子3</div>
+        <div class="smallbox">盒子4</div>
+        <div class="smallbox">盒子5</div>
+        <div class="smallbox">盒子6</div>
+        <div class="smallbox">盒子7</div>
+        <div class="smallbox">盒子8</div>
+        <div class="last"></div>
+    </div>
+    
+</body>
+</html>

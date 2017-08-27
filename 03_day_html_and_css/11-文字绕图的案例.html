@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>11-文字绕图的案例</title>
+
+    <style>
+        .box{
+            width: 450px;
+            height: 210px;
+            border: 1px solid black;
+        }
+        /* 2.设置图片浮动 */
+        .box img{
+            float:left;
+        }
+        /* 3.设置p标签 */
+        .box p{
+            margin:0;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- div.box>img+p -->
+    <div class="box">
+        <img src="images/bg.jpg" alt="h5">
+        <p>父级元素:overflow:hidden
+            2.在最后一个子元素的后面加一个空的div，给它样式属性 clear:both（不推荐）
+            3. .clearfix:after,.clearfix:before{ content: "";display: table;}
+            .clearfix:after{ clear:both;}
+            .clearfix{zoom:1;}
+            父级元素:overflow:hidden
+            2.在最后一个子元素的后面加一个空的div，给它样式属性 clear:both（不推荐）
+            3. .clearfix:after,.clearfix:before{ content: "";display: table;}
+            .clearfix:after{ clear:both;}
+                 .clearfix{zoom:1;}
+        </p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>10-浮动1</title>
+
+    <style>
+        /* 浮动的特点
+        1. left  right
+        2.碰到边界就停止,如果不够自动换行
+        3.元素之间没有间隔
+        4.不占位置(如果有文字, 文字显示是绕过浮动元素的)
+         */
+
+         .bigbox{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+         }
+        .box{
+            /* width: 200px;
+            height: 200px;
+            background-color: red; */
+
+            /* 左浮动 */
+            /* float:left; */
+        }
+        .box1{
+            /* width: 200px;
+            height: 200px;
+            background-color: green; */
+
+            /* 右浮动 */
+            /* float:left; */
+        }
+
+
+        /* -----------不占位置 */
+          .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+
+             float: left; 
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="bigbox"> -->
+        <div class="box"></div>
+         <div class="box1">div标签</div>
+    <!-- </div> -->
+    
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03-初始化样式重置</title>
+    <style>
+        body,p,ul,ol,li,dl,dt,dd,form,h1,h2,h3,h4,h5,h6{
+
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 初始化原因:系统自带的标签有很多有margin或者padding,影响后期的布局 -->
+     <!-- 1.表单 -->
+    <form action="">
+        <label for="user">用户名</label>
+        <input type="text" id="user">
+    </form>
+    <!-- 2.p -->
+    <p>段落标签</p>
+    <!-- 3.h1-h6 -->
+    <h1>最大的标题</h1>
+    <!-- 4.列表 -->
+    <!-- ul>(li{无序列表}*5) -->
+    <ul>
+        <li>无序列表</li>
+        <li>无序列表</li>
+        <li>无序列表</li>
+        <li>无序列表</li>
+        <li>无序列表</li>
+    </ul>
+    <!-- 5.定义列表 -->
+    <dl>
+        <dt>title</dt>
+        <dd>定义列表内容</dd>
+        <dd>定义列表内容</dd>
+        <dd>定义列表内容</dd>
+    </dl>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05-解决行内元素间隔问题</title>
+    <style>
+        /* 
+        05-解决行内元素间隔问题
+
+        1.代码不换行
+        2.设置父元素的font-size:0; 单独设置子元素font-size
+         */
+
+         a{
+             background-color: red;
+             font-size: 20px;
+
+            /* 1.不支持宽高, */
+             width: 300px;
+             height: 300px;
+
+             /* 2.不支持margin上下 */
+             margin-top:300px;
+             margin-bottom:300px;
+
+             /* 3.支持padding上下有问题 */
+             /* padding-top: 100px; */
+         }
+
+         body{
+             font-size: 0;
+         }
+    </style>
+</head>
+<body>
+    <a href="">链接标签</a>
+    <a href="">链接标签</a>
+    
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>08-行内块元素内联块元素</title>
+    <style>
+            .one{
+                background-color: red;
+                width: 200px;
+                height: 200px;
+
+                /* 1.将块元素改变成行内元素 */
+                /* display: inline; */
+
+                /* 2.将块元素改变成行内块元素 */
+                display: inline-block;
+            }
+            .two{
+                background-color: green;
+                width: 200px;
+                height: 200px;
+
+                 /* 1.将块元素改变成行内元素 */
+                display: inline;
+                 /* 2.将块元素改变成行内块元素 */
+                display: inline-block;
+            }
+
+
+            a{
+                background-color: red;
+                /* 1.行内元素转换成 块元素 */
+                 /* display: block;  */
+
+                  /* 1.行内元素转换成 行内块元素 */
+                  width: 300px;
+                  height: 100px;
+                 /* display: inline-block;  */
+
+                /* 3.隐藏元素  不占位置 */
+                  display: none; 
+            }
+
+            img{
+
+                width: 500px;
+            }
+
+    </style>
+</head>
+<body>
+
+    <!-- <div class="one">div标签</div>
+    <div class="two">div标签</div> -->
+
+    <a href="">链接标签</a>
+    <a href="">链接标签</a>
+    <div>div标签</div>
+
+    <img src="images/bg.jpg" alt="h5">
+    
+</body>
+</html>

@@ -67,7 +67,7 @@
                 text-align: center; /* 文字居中  默认left*/
 
                 /*font-size: 5px;*/
-                text-indent: 4em;   /* 首行缩进  px  em */
+                text-indent: 4em;   /* 首行缩进  px  em:文字单位 */
                 font-style: italic; /* 是否斜体 */
                 font-weight: bold;  /* 是否加粗 normal*/
 
@@ -80,7 +80,7 @@
                 /*overflow: visible; !* //默认 *!*/
                 /*overflow: hidden; !* 隐藏超出的内容 没有了 *!*/
                 /*overflow: scroll; !* 滚动查看溢出的内容 *!*/
-                overflow:auto;
+                overflow:auto;      /*scroll 和 auto 都只有竖向的滚动条*/
             }
 
         </style>
@@ -94,7 +94,7 @@
 		<img style="width: 20px;height: 20px" src="./images/RMB.jpg" alt="RMB"/>
         <a href="http://www.baidu.com" target="_parent" name="百度">百度</a><br>
         <a href="http://www.google.com" target="_blank">google</a>
-        <div>
+        <div>   <!--p标签默认文字上边有间距-->
             <p>&nbsp;&nbsp;<span style="color: red;">x</span>xx</p>
         </div>
         <hr>    <!--水平分割线-->

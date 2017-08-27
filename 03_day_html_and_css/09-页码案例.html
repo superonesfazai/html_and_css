@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>09-页码案例</title>
+
+    <style>
+            /* //初始化 */
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            /* 2.设置样式 */
+            /* 2.1设置边框 */
+            .box{
+
+                width: 900px;
+                height: 50px;
+                margin: 0 auto;
+                border: 1px solid red;
+
+                text-align: center;
+            }
+
+            /* 2.2将li标签改成 行内块元素 */
+            .list li{
+
+                display: inline-block;
+                line-height: 50px;
+            }
+
+            /* 2.3去掉下划线 字体颜色黑色  背景色黄色*/
+            .list li a{
+                text-decoration: none;
+                color: black;
+                background-color: gold;
+
+                padding: 5px;
+            }
+
+    </style>
+</head>
+<body>
+
+    <!-- 1.搭建界面  div>div(元素转换)>a  
+                    div>ul>li>a    
+    -->
+    <div class="box">
+        <ul class="list">
+            <li><a href="">上一页</a></li>
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+            <li><a href="">...</a></li>
+            <li><a href="">19</a></li>
+            <li><a href="">20</a></li>
+            <li><a href="">21</a></li>
+            <li><a href="">22</a></li>
+            <li><a href="">下一页</a></li>
+        </ul>
+    </div>  
+    
+</body>
+</html>
