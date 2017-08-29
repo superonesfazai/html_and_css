@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+          /* 4.层级选择器
+        5.伪类选择器
+        6.组选择器 并集选择器 */
+        /*
+        选择器          权重
+        1.标签            1
+        2.类选择器         10
+        3.ID选择器         100
+        4.行内式           1000
+        5.!important      10000 提升属性的权重
+
+        
+          */
+          /* p{
+              color: red !important;
+              font-size: 10px;
+          }
+          .pclass{
+              color: gold;
+          }
+          #pId{
+
+              color: purple;
+              font-size: 30px;
+          } */
+          
+
+          /* 复合选择器 */
+            /* 10        1  1 = 12 */
+          .grandfather div p{
+              color: red !important;
+          }
+
+          /* 10           100       1=111 */
+          .grandfather #fatherId p{
+              color: green;
+          }
+          /* 100       1    10 = 111 */
+          #grandId div .son{
+
+              color: gold;
+          }
+    </style>
+</head>
+<body>
+
+    <!-- <p class="pclass" id="pId" style="color:green">段落标签</p> -->
+    
+    <div class="grandfather" id="grandId">
+        <div class="father" id="fatherId">
+            <p class="son" id="sId">段落标签</p>
+        </div>
+    </div>
+</body>
+</html>

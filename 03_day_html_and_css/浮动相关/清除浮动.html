@@ -25,6 +25,8 @@
              /* overflow: hidden; */
         }
 
+
+        /* 下面三个组合既能清除浮动, 又能清除margin-top塌陷 */
         .clearfix:before,.clearfix:after{
             content: "";
             display: table;
@@ -36,6 +38,8 @@
             /* 适配低版本的IE浏览器 */
             zoom: 1;
         }
+
+
 
         .last{
              /* clear: both;  */
@@ -57,7 +61,6 @@
     <!-- 1.搭建界面 -->
     <!-- div.box>(div.smallbox{盒子$}*8) -->
     <div class="box clearfix">
-        
         <div class="smallbox">盒子1</div>
         <div class="smallbox">盒子2</div>
         <div class="smallbox">盒子3</div>

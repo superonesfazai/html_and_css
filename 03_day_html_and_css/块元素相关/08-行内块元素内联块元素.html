@@ -12,7 +12,7 @@
                 height: 200px;
 
                 /* 1.将块元素改变成行内元素 */
-                /* display: inline; */
+                /* display: inline; */ /*行内元素宽高由内容决定*/
 
                 /* 2.将块元素改变成行内块元素 */
                 display: inline-block;
@@ -25,7 +25,7 @@
                  /* 1.将块元素改变成行内元素 */
                 display: inline;
                  /* 2.将块元素改变成行内块元素 */
-                display: inline-block;
+                /*display: inline-block;*/
             }
 
 
@@ -39,27 +39,27 @@
                   height: 100px;
                  /* display: inline-block;  */
 
-                /* 3.隐藏元素  不占位置 */
-                  display: none; 
+                /* 3.隐藏元素  且不占位置 */
+                display: none;
             }
 
             img{
-
-                width: 500px;
+                width: 100px;
+                height: 100px;
             }
 
     </style>
 </head>
 <body>
 
-    <!-- <div class="one">div标签</div>
-    <div class="two">div标签</div> -->
+    <div class="one">div标签</div>
+    <div class="two">div标签</div>
 
     <a href="">链接标签</a>
     <a href="">链接标签</a>
     <div>div标签</div>
 
-    <img src="images/bg.jpg" alt="h5">
+    <img src="../images/bg.jpg" alt="h5">
     
 </body>
 </html>

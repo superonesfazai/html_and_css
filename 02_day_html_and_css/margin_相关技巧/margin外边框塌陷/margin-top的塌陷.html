@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>12-margin-top的塌陷</title>
+    <!--由于父元素没有设置边框, 而子元素设置边框, 导致就像子元素不在父元素中, 从而出现父元素塌陷的问题-->
+    <!--即父元素未能装下子元素导致溢出-->
     <style>
         .box{
 

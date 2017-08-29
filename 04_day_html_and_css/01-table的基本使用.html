@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>01-table的基本使用</title>
+    <style>
+        .tb{
+            width: 300px;
+            height: 300px;  
+            border:1px  solid black;
+
+            /* 合并边框 */
+             border-collapse: collapse; 
+
+            /* 了解属性分割 */
+            /* border-collapse: separate; */
+                            /* 左右   上下 */
+            /* border-spacing: 10px 50px; */
+        }
+        .tb td{
+            border:1px  solid black;
+
+            /* 文本居中 */
+            text-align: center;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+        <!-- 01-table的基本使用
+            table
+            tr table row 行数
+            td table description 格子内容
+            th table head
+
+            合并单元格:一定找准到底是第几行的第几个; 将多出来的格子删掉
+            跨列: colspan
+            跨行: rowspan
+        -->
+        <table class="tb">
+            <!-- 1.第1行 -->
+            <tr>
+                <!-- //跨列合并 
+                    第一行的,第一列和第二列
+                -->
+                <td colspan="2">1</td>
+                
+                <td>3</td>
+                <td>4</td>
+            </tr>
+
+             <!-- 1.第2行 -->
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+
+             <!-- 1.第3行 -->
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <!-- 跨行合并 -->
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+
+             <!-- 1.第4行 -->
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                
+                <td>4</td>
+            </tr>
+
+        </table>
+</body>
+</html>

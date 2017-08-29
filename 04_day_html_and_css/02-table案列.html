@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>02-table案列</title>
+    <style>
+        /* 1.设置表格边框及合并 */
+        .tb{
+            width:710px;
+            height: 250px;
+            border: 1px solid black; 
+
+            /* th  自动加粗和居中 */
+            /* //合并边框 */
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        .tb td{
+            border: 1px solid black; 
+
+            /* //首行缩进 */
+            text-indent: 10px;
+        }
+
+        /* 2.设置表头 */
+        .tb th{
+            text-align: left;
+            background-color: #ebfaf3;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.搭建表格 -->
+    <table class="tb">
+        <!-- tr*6>td*5 -->
+        <tr>
+            <!-- 2.跨列合并 -->
+            <th colspan="5" height="40px">基本情况</th>
+         
+        </tr>
+        <tr>
+            <td width="22%">姓名</td>
+            <td width="16%"></td>
+            <td width="22%">性别</td>
+            <td width="16%"></td>
+            <!-- 跨行合并 -->
+            <td width="24%" rowspan="5"><img src="images/head.jpg" alt="个人头像"></td>
+        </tr>
+        <tr>
+            <td>民族</td>
+            <td></td>
+            <td>出生日期</td>
+            <td></td>
+           
+        </tr>
+        <tr>
+            <td>政治面貌</td>
+            <td></td>
+            <td>健康情况</td>
+            <td></td>
+           
+        </tr>
+        <tr>
+            <td>籍贯</td>
+            <td></td>
+            <td>学历</td>
+            <td></td>
+           
+        </tr>
+        <tr>
+            <td>电子信箱</td>
+            <td></td>
+            <td>联系电话</td>
+            <td></td>
+            
+        </tr>
+
+    </table>
+    
+</body>
+</html>
