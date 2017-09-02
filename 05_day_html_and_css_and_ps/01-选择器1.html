@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>01-选择器1</title>
+    <style>
+        /* 初始化 */
+        /* body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,dt,div,li{
+            margin:0;
+            padding:0;
+        } */
+
+        /* 1. 通用选择器 */
+        * {
+            margin:0;
+            padding:0;
+        }
+
+        /* 2. 子选择器  注意点: 只负责 儿子这一代*/
+        /* .father > p{
+            color: red;
+        } */
+
+        /* 3. 相邻选择器  注意点: 相邻的是下面的元素(中间没有其它元素)*/
+        .father + span {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="father">
+        <p class="son">儿子</p>
+        <div>
+            <p class="grandson">孙子</p>
+        </div>
+
+    </div>
+    <span>span标签</span>
+    
+</body>
+</html>

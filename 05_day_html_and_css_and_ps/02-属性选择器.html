@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>02-属性选择器</title>
+    <style>
+            /* 属性选择器 */
+            /* 标签[属性] */
+
+            /* 1.li标签有class属性的生效 */
+            /* li[class]{
+
+                color: red;
+            } */
+
+            /* 2. li标签有class属性值等于"7727a" 的生效 */
+            /* li[class="7727a"]{
+                color: red;
+            } */
+
+
+            /* 3. li标签有class属性值 开头等于"1" 的生效 */
+            /* li[class^="1"]{
+                color: red;
+            } */
+
+            /* 4. li标签有class属性值 结尾等于"a" 的生效 */
+            /* li[class$="a"]{
+                color: red;
+            } */
+
+             /* 5. li标签有class属性值 只要有"a" 的生效 */
+            li[class*="a"]{
+                color: red;
+            }
+    </style>
+</head>
+<body>
+
+    <ul class="list">
+        <li class="123445">文字1</li>
+        <li class="12890a">文字2</li>
+        <li class="abd123">文字3</li>
+        <li class="7777a">文字4</li>
+        <li class="7727a">文字5</li>
+        <li>文字6</li>
+    </ul>
+    
+</body>
+</html>

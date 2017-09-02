@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03-nth-type</title>
+
+    <style>
+        .list li:nth-of-type(2){
+            color: red;
+        }
+
+        /* //倒着数 第二个 */
+        .list li:nth-last-of-type(2){
+            color: green;
+        }
+
+        /* //第一个 */
+        .list li:first-of-type{
+            color: gold;
+        }
+        /* //最后一个 */
+        .list li:last-of-type{
+            color: blue;
+        }
+       
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <!-- <p>段落</p>
+             <p>段落</p>    -->
+        <li class="123445">文字1</li>
+        <li class="12890a">文字2</li>
+        <li class="abd123">文字3</li>
+        <li class="7777a">文字4</li>
+        <li class="7727a">文字5</li>
+        <li>文字6</li>
+    </ul>
+</body>
+</html>

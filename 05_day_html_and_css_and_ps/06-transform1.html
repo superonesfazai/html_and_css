@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>06-transform1</title>
+    <style>
+        .box{
+
+            width: 400px;
+            height: 200px;
+            background: red;
+            margin:300px auto 0;
+        }
+
+        .box:hover{
+
+            /* transform的形变属性 */
+            /* 平移  translate*/
+            /* transform: translate(0,100px); */
+
+            /* 缩放  scale x y各缩放2倍*/
+            /* transform: scale(2,2); */
+
+            /* 旋转  rotate*/
+            /* transform: rotate(45deg); */
+
+            /* 斜切 */
+            transform: skew(30deg,30deg);
+
+
+            transition: all 1s linear;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box">  </div>
+    
+</body>
+</html>

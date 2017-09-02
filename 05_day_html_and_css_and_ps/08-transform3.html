@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>06-transform2</title>
+    <style>
+        .box{
+
+            width: 400px;
+            height: 200px;
+            background: red;
+            margin:300px auto 0;
+        }
+
+        .box:hover{
+            /* 是否以3d的效果展示   默认 flat*/
+            transform-style: preserve-3d;
+            transform: perspective(800px) rotateY(45deg);
+         
+            /* 设置背面是否可见 */
+            /* backface-visibility: hidden; */
+
+            transition: all 1s linear;
+        }
+
+        .box1{
+
+            width: 400px;
+            height: 100px;
+            background: blue;
+          
+        }
+
+        .box1:hover{
+            transform:perspective(800px)  rotateY(-45deg);
+            transition: all 1s linear;
+        }   
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+
+        <div class="box1"></div>
+
+    </div>
+    
+</body>
+</html>
