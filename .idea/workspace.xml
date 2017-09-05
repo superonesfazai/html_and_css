@@ -5,67 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51f93770-fbc2-4213-a46b-77d5e8e8aa3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/ad1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/ad2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/buycar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/egg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/fresh.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/friut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/icon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/icon6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/meat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/images/xia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/ad1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/ad2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/buycar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/egg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/fish.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/friut.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/icecream.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/icon01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/icon02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/icon03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/icon04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/icon05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/icon06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/leftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/listarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/meat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/rightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/vegetable.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/images/xia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/Preview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/QuickLook/Preview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/style.mindnodestyle/metadata.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/viewState.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/小结1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/小结2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/小结3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/小结4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/小结5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/01-选择器1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/02-属性选择器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/03-nth-child.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/04-nth-type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/05-transition动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/06-transform1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/07-transform2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day_html_and_css_and_ps/08-transform3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/天天生鲜项目实战/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/contents.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/小结/style.mindnodestyle/contents.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,20 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1293">
-              <caret line="182" column="16" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="15">
               <caret line="253" column="23" lean-forward="false" selection-start-line="253" selection-start-column="23" selection-end-line="253" selection-end-column="23" />
               <folding />
             </state>
@@ -187,7 +116,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="707" />
     <option name="y" value="26" />
     <option name="width" value="557" />
@@ -326,20 +255,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="707" y="26" width="557" height="718" extended-state="1" />
+    <frame x="707" y="26" width="557" height="718" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27289048" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -441,7 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -449,7 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="50" column="7" lean-forward="false" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -457,7 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -465,7 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,7 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,7 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,7 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,22 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding>
-            <element signature="e#1295#1299#0" expanded="false" />
-            <element signature="e#1299#1303#0" expanded="false" />
-            <element signature="e#1428#1434#0" expanded="false" />
-            <element signature="e#1434#1440#0" expanded="false" />
-            <element signature="e#1551#1557#0" expanded="false" />
-            <element signature="e#1557#1563#0" expanded="false" />
-            <element signature="e#1674#1680#0" expanded="false" />
-            <element signature="e#1680#1686#0" expanded="false" />
-            <element signature="e#1797#1803#0" expanded="false" />
-            <element signature="e#1803#1809#0" expanded="false" />
-            <element signature="e#1920#1926#0" expanded="false" />
-            <element signature="e#1926#1932#0" expanded="false" />
-            <element signature="e#2043#2049#0" expanded="false" />
-            <element signature="e#2049#2055#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="72" column="6" lean-forward="false" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-529">
           <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,45 +575,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="50" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/my_天天生鲜/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/my_天天生鲜/images/ad1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/my_天天生鲜/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/my_天天生鲜/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/my_天天生鲜/css/reset.css" />
+    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/my_天天生鲜/images/ad1.jpg" />
+    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/my_天天生鲜/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/my_天天生鲜/index.html" />
     <entry file="file://$PROJECT_DIR$/03_day_html_and_css/块元素相关/行内块元素">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -728,7 +597,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -739,7 +607,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="270">
             <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -749,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="85" column="10" lean-forward="true" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,22 +623,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="15">
           <caret line="253" column="23" lean-forward="false" selection-start-line="253" selection-start-column="23" selection-end-line="253" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/天天生鲜项目实战/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1293">
-          <caret line="182" column="16" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
           <folding />
         </state>
       </provider>
