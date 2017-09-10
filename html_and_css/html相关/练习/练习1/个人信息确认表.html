@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人信息确认表</title>
+    <style>
+        .box{
+            width: 710px;
+            height: 300px;
+            margin: 50px auto 0;
+            border: 1px solid black;
+            /*合并边框*/
+            border-collapse: collapse;
+
+            /*border-collapse: separate;   !*这是默认的值, separate为分割的意思*!*/
+            /*border-spacing: 10px 30px;*/
+        }
+
+        .box td{
+            border: 1px solid black;
+            text-indent: 10px;
+            height: 17%;
+        }
+
+        .box th{
+
+            text-align: left;
+        }
+    
+    </style>
+</head>
+<body>
+    <table class="box" >
+       <tr>
+           <th colspan="5">基本情况</th>
+       </tr>
+       <tr >
+           <td width="20%">姓名</td>
+           <td width="15%"></td>
+           <td width="20%">性别</td>
+           <td width="15%"></td>
+           <td width="20%" rowspan="5"><img src="head.jpg" alt="个人头像"></td>
+       </tr>
+       <tr>
+           <td>民族</td>
+           <td></td>
+           <td>出生日期</td>
+           <td></td>
+       </tr>
+       <tr>
+           <td>政治面貌</td>
+           <td></td>
+           <td>健康情况</td>
+           <td></td>
+       </tr>
+       <tr>
+           <td>籍贯</td>
+           <td></td>
+           <td>学历</td>
+           <td></td>
+       </tr>
+       <tr>
+           <td>电子信箱</td>
+           <td></td>
+           <td>联系电话</td>
+           <td></td>
+       </tr>
+    </table>
+</body>
+</html>

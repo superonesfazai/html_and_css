@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>07-菜单栏案例</title>
+    <style>
+        /*
+            1.ul  960px 40px  50a7ee
+            2.li  100  40 ; 0160a2 
+            3.a  白色, 字体大小, 居中,去掉下划线  14px
+            4.new图标 绝对定位
+          */
+          ul{
+              margin:0;
+              padding: 0;
+              list-style: none;
+          }
+         /* 1.ul  960px 40px  50a7ee */
+         .list{
+             width: 960px;
+             height: 40px;
+             background-color: #50a7ee;
+             margin: 50px auto;
+
+             position: relative;
+         }
+
+         /* 2.li  100  40 ; 0160a2  */
+         .list li{
+             width: 100px;
+             height: 40px;
+             /* background: red; */
+             float:left;    /*使其li元素水平分布*/
+             text-align: center;
+         }
+
+         /* 3.a  白色, 字体大小, 居中,去掉下划线  14px */
+         .list li a{
+
+            color: white;
+            font-size: 14px;
+            line-height: 40px;
+            text-decoration: none;
+         }
+
+         /* 4.设置伪类 给li */
+         .list li:hover{
+             background: #0160a2;
+             /* 改变鼠标悬浮的样式 */
+             cursor: pointer;
+         }
+
+         /* 5.new图标 绝对定位 */
+         .list .new{
+             background: url(../../04_day_html_and_css/images/new.png) no-repeat;
+
+             /* //绝对定位 */
+             position: absolute;
+             left:433px;
+             top: -12px;
+         }
+    </style>
+</head>
+<body>
+
+    <!-- 1.搭建界面内容 -->
+    <ul class="list">
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li class="new"></li>
+    </ul>
+    
+    
+</body>
+</html>

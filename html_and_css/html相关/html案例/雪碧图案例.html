@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>06-雪碧图案例</title>
+    <style>
+        /*06-雪碧图案例
+            雪碧图 sprite 精灵图,一张图片上放多个小图片
+            作用:减少网络请求;提高性能
+          */
+
+          /* 2.1设置列表的宽度 */
+          .list{
+              width: 300px;
+              list-style: none;
+              margin:0 auto;
+          }
+          /* 2.2li标签的高度 */
+          .list li{
+              height: 60px;
+              border-bottom: 1px dotted red;
+              text-indent: 50px;
+              /* //设置背景图片 */
+              background: url(../../04_day_html_and_css/images/bg01.png) no-repeat 0px 9px;
+          }
+
+          /* 2.4修改雪碧图的位置 */
+          .list .li2{
+              background-position-y: -71px;
+          }
+          .list .li3{
+              background-position-y: -151px;
+          }
+          .list .li4{
+              background-position-y: -234px;
+          }
+          .list .li5{
+              background-position-y: -311px;
+          }
+
+          /* 2.3a标签 */
+          .list li a{
+              text-decoration: none;
+              color: black;
+              line-height: 60px;
+          }
+    </style>
+</head>
+<body>
+
+    <!-- 1.搭建界面 -->
+    <!-- ul.list>(li>a{美人鱼})*5 -->
+    <ul class="list">
+        <li><a href="">美人鱼</a></li>
+        <li class="li2"><a href="">美人鱼</a></li>
+        <li class="li3"><a href="">美人鱼</a></li>
+        <li class="li4"><a href="">美人鱼</a></li>
+        <li class="li5"><a href="">美人鱼</a></li>
+    </ul>
+    
+</body>
+</html>

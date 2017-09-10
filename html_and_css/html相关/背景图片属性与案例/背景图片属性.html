@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>04-背景图片属性</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+
+            /* 背景图片 */
+            /* background-image: url(images/bg.jpg); */
+            /* 不重复 */
+             /* background-repeat: no-repeat;  */
+            /* 横向平铺 */
+            /* background-repeat: repeat-x; */
+            /* 纵向平铺 */
+            /* background-repeat: repeat-y; */
+
+            /* 改变背景图片的位置 */
+                                /* 水平    垂直 */
+            /* background-position: 30px 100px; */
+            /* background-position: right bottom; */
+           
+            /* 属性连写             */
+            background: url(images/bg.jpg) no-repeat 10px 10px red;
+
+            /*了解*/
+            /*background-attachment: fixed;   !*attachment吸附的意思*!*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box">  </div>
+    
+</body>
+</html>
