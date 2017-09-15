@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51f93770-fbc2-4213-a46b-77d5e8e8aa3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/大总结.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_and_css/css相关/transform动画/transform1.html" afterPath="$PROJECT_DIR$/html_and_css/css相关/transform动画/transform1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html_and_css/css相关/css选择器/子选择器与后代选择器的区别.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +41,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="300">
-                <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+                <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -51,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="清除浮动.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="清除浮动.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html_and_css/html相关/浮动相关/清除浮动.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-73">
@@ -61,11 +59,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="css选择器_2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html_and_css/css相关/css选择器/css选择器_2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-246">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css常用选择器" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html_and_css/css相关/css选择器/css常用选择器">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1503738343000" expanded="true" signature="890:1010" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="固定定位.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html_and_css/html相关/定位相关/固定定位.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="433">
-              <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+              <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -95,26 +118,6 @@
         <entry file="file://$PROJECT_DIR$/html_and_css/html相关/定位相关/顶部的菜单栏.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1502">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="垂直外边距合并.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html_and_css/html相关/margin_相关技巧/margin垂直外边框/垂直外边距合并.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="垂直外边距案例.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html_and_css/html相关/margin_相关技巧/margin垂直外边框/垂直外边距案例.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -285,30 +288,14 @@
               <item name="html_doc" type="b2602c69:ProjectViewProjectNode" />
               <item name="html_doc" type="462c0819:PsiDirectoryNode" />
               <item name="html_and_css" type="462c0819:PsiDirectoryNode" />
-              <item name="html相关" type="462c0819:PsiDirectoryNode" />
+              <item name="css相关" type="462c0819:PsiDirectoryNode" />
+              <item name="css选择器" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html_doc" type="b2602c69:ProjectViewProjectNode" />
               <item name="html_doc" type="462c0819:PsiDirectoryNode" />
               <item name="html_and_css" type="462c0819:PsiDirectoryNode" />
               <item name="html相关" type="462c0819:PsiDirectoryNode" />
-              <item name="margin_相关技巧" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html_doc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html_doc" type="462c0819:PsiDirectoryNode" />
-              <item name="html_and_css" type="462c0819:PsiDirectoryNode" />
-              <item name="html相关" type="462c0819:PsiDirectoryNode" />
-              <item name="margin_相关技巧" type="462c0819:PsiDirectoryNode" />
-              <item name="margin垂直外边框" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html_doc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html_doc" type="462c0819:PsiDirectoryNode" />
-              <item name="html_and_css" type="462c0819:PsiDirectoryNode" />
-              <item name="html相关" type="462c0819:PsiDirectoryNode" />
-              <item name="margin_相关技巧" type="462c0819:PsiDirectoryNode" />
-              <item name="margin外边框塌陷" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html_doc" type="b2602c69:ProjectViewProjectNode" />
@@ -342,19 +329,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html_and_css/css相关/css选择器" />
+      <recent name="$PROJECT_DIR$/html相关/图片格式" />
+      <recent name="$PROJECT_DIR$/html相关/html案例/images" />
+      <recent name="$PROJECT_DIR$/html相关/背景图片属性与案例/images" />
+      <recent name="$PROJECT_DIR$/html相关" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html_and_css" />
       <recent name="$PROJECT_DIR$/html相关" />
       <recent name="$PROJECT_DIR$/html相关/列表" />
       <recent name="$PROJECT_DIR$/html相关/列表/images" />
       <recent name="$PROJECT_DIR$/html相关/列表/贵美商城_test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html相关/图片格式" />
-      <recent name="$PROJECT_DIR$/html相关/html案例/images" />
-      <recent name="$PROJECT_DIR$/html相关/背景图片属性与案例/images" />
-      <recent name="$PROJECT_DIR$/html相关" />
-      <recent name="$PROJECT_DIR$/html相关/table/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,7 +376,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23046875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23046875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -645,27 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_and_css/css相关/css选择器/css常用选择器">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1503738343000" expanded="true" signature="890:1010" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html_and_css/css相关/css选择器/css选择器_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_and_css/css相关/css选择器/选择器进阶/nth-type.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -763,7 +729,7 @@
     <entry file="file://$PROJECT_DIR$/html_and_css/html相关/定位相关/固定定位.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
-          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -796,7 +762,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="300">
-            <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             <folding />
           </first_editor>
           <second_editor />
@@ -808,6 +774,27 @@
         <state relative-caret-position="-73">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_and_css/css相关/css选择器/css选择器_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_and_css/css相关/css选择器/css常用选择器">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1503738343000" expanded="true" signature="890:1010" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
