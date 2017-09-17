@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>使用js进行冒泡排序</title>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            function maopao(arra){
+            var temp;
+
+            for(var i = 0; i < arra.length; i++){
+                for(var j = 0;j < arra.length-i-1; j++){
+                    if(arra[j] > arra[j+1]){
+                        temp = arra[j];
+                        arra[j] = arra[j+1];
+                        arra[j+1] = temp;
+                    }
+                }
+            }
+            return arra;
+            }
+
+            var aList = [1,2,6,4,11,20,14,6,9,22,0,5];
+            var s = maopao(aList);
+
+            console.log(
+                '冒泡排序后为：' + s
+            );
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+<!--测试结果如下：-->
+<!--
+冒泡排序后为：0,1,2,4,5,6,6,9,11,14,20,22
+-->
